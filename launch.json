@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "DCAToken",
+    "name": "Democratizing Collectable Acquisions",
+    "symbol": "DCA",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":8000,"initialMarketCapWei":"2500000000000000000000","remainderTo":"0x612a9bb008e16ef2d24f41dae9fc661831d93367"},
+  "notes": "DCAToken mints 1,000,000,000 DCA with 18 decimals once to msg.sender in its parameterless constructor. It has ordinary untaxed ERC-20 transfers and no external mint, burn, administration or upgrade functions. No application contracts are deployed. pool.initialPrice records provenance; the opening price is derived from economics.initialMarketCapWei and the total supply."
+}
